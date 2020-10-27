@@ -37,4 +37,3 @@ The corporate site
 - [ ] Team
 # Technologies
 * HTML, CSS and Javascript
-* Bulma CSS
