@@ -4,8 +4,10 @@ The corporate site
 # Todo
 - [X] Update README
 - [x] Add technologies used to README
+- [x] Create navbar
 - [ ] Create landing page(index.html)
-  - [ ] Create links to other pages
+  - [x] Create links to other pages
+  - [ ] Create hero section
   - [ ] Create services section
 	- [ ] Link to contact for a quote
   - [ ] Create industries section
