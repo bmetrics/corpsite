@@ -12,3 +12,16 @@
 .title, .subtitle{
     color:rgba(255, 255, 255, 0.8);
 }
+
+
+@media (min-width: 900px){
+    .hero{
+	height: 70vh;
+    }
+    
+}
+@media (min-width: 1280px){
+    .hero{
+	height: 100vh;
+    }
+}

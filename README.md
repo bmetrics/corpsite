@@ -38,5 +38,4 @@ The corporate site
 - [ ] Past works / case studies
 - [ ] Team
 # Technologies
-* HTML, CSS and Javascript
-* Bulma CSS
+* HTML, CSS and Javascript and Bulma CSS
