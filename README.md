@@ -7,7 +7,7 @@ The corporate site
 - [x] Create navbar
 - [ ] Create landing page(index.html)
   - [x] Create links to other pages
-  - [ ] Create hero section
+  - [x] Create hero section
   - [ ] Create services section
 	- [ ] Link to contact for a quote
   - [ ] Create industries section
