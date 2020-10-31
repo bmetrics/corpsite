@@ -1,0 +1,27 @@
+.hero {
+    justify-content:center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),
+				      rgba(0, 0, 0, 0.5)), url(hero.jpg);
+    background-size: cover;
+    height: 50vh;
+}
+
+.hero-body{
+    flex-grow: 0;
+}
+.title, .subtitle{
+    color:rgba(255, 255, 255, 0.8);
+}
+
+
+@media (min-width: 900px){
+    .hero{
+	height: 70vh;
+    }
+    
+}
+@media (min-width: 1280px){
+    .hero{
+	height: 100vh;
+    }
+}
