@@ -1,21 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Hello Bulma!</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+    <title>Busimetrics</title>
+    <link href="assets/bulma.css" rel="stylesheet"/>
+    <link href="assets/style.css" rel="stylesheet"/>
   </head>
   <body>
-  <section class="section">
-    <div class="container">
-      <h1 class="title">
-        Hello World
-      </h1>
-      <p class="subtitle">
-        My first website with <strong>Bulma</strong>!
-      </p>
-    </div>
-  </section>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      
+      <div class="navbar-brand">
+	 <a class="navbar-item" href="index.html">
+	   <img src="assets/logo.png" width="180">
+	 </a>
+	<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+	<span aria-hidden="true"></span>
+	<span aria-hidden="true"></span>
+	<span aria-hidden="true"></span>
+	</a>
+      </div>
+
+      <div class="navbar-menu">
+	<div class="navbar-end">
+	  <div class="navbar-item">
+	    <a href="index.html">Home</a>
+      </div>
+      <div class="navbar-item">
+	<a href="team.html">Team</a>
+      </div>
+      <div class="navbar-item">
+	<a href="contact.html">Contact us</a>
+      </div>
+      <div class="navbar-item">
+	<a href="">Case studies</a>
+      </div>
+      <div class="navbar-item">
+	<a href="blog_homepage.html">Blog</a>
+      </div>
+      <div class="navbar-item">
+	<a href="about_us.html">About us</a>
+      </div>
+	</div>
+      </div>
+    </nav>
+
+    
+    <section class="contactform">
+      <h1 class="title has-text-centered has-text-primary">Contact Us</h1>
+      <hr style="margin: 0 0 3rem;">
+      <h3 class="subtitle has-text-primary has-text-centered">Send us a message</h3>
+      <div class="field">
+	<label class="label">Name</label>
+	<div class="control">
+	  <input class="input" type="text" placeholder="">
+	</div>
+      </div>
+
+      <div class="field">
+	<label class="label">Email</label>
+	<div class="control">
+	  <input class="input" type="email" placeholder="">
+	</div>
+      </div>
+      
+      
+      <div class="field">
+	<label class="label">Message</label>
+	<div class="control">
+	  <textarea class="textarea" placeholder="Put your message here"></textarea>
+	</div>
+      </div>
+
+      <button class="button is-primary" type="submit">Submit</button>
+      
+    </section>
+    
+    <hr style="margin: 0 0 3rem;">
+    <section class="callus has-text-centered">
+      <h1 class="subtitle has-text-primary has-text-centered">Call us</h1>
+      <p class="has-text-centered">Call us on +2335402331541 or by clicking the button below</p>
+      <br>
+      <a href="tel:+2335402331541"><button class="button is-primary">Call us</button></a>
+    </section>
+    <section class="callus has-text-centered">
+      <h1 class="subtitle has-text-primary has-text-centered">Email us</h1>
+      <p class="has-text-centered">Email us at <a href="emailto:hello@busimetrics.com">hello@busimetrics.com</a></p>
+    </section>
+    
+    <footer class="footer">
+      <div class="content has-text-centered">
+	<div class="columns">
+	  <div class="column">
+	    <img src="assets/logo.png" width="180">
+	    <p> Premier development hub for planning, building, support and enhancement of top-notch web applications. </p>
+	  </div>
+	  <div class="column">
+	    <h3>Company</h3>
+	    <p>
+	      <a href="blog_homepage.html">Blog</a>
+	    </p>
+	    <p>
+	      <a href="">About</a>
+	    </p>
+	    <p>
+	      <a href="">Team</a>
+	    </p>
+	    
+	  </div>
+	  <div class="column">
+	    <h3>Showcase</h3>
+	    <p>
+	      <a href="">Services</a>
+	    </p>
+	    <p>
+	      <a href="">Case studies</a>
+	    </p>
+	  </div>
+	  <div class="column">
+	    <h3>Contact</h3>
+	    <p>
+	      <a href="">hello@busimetrics.com</a>
+	    </p>
+	    <p>
+	      <a href="tel:+2335402331541">+2335402331541</a>
+	    </p>
+	    <p>
+	      <a href="">Team</a>
+	    </p>
+	  </div>
+	</div>
+	<hr style="margin: 0 0 3rem;">
+	<div class="level">
+	  <div class="level-item">
+	    <p>© All Rights Reserved Busimetrics</p>
+	  </div>
+	  <div class="level-item">
+	    <p>
+	      <a href="">Legal</a>
+	    </p>
+	  </div>
+	</div>
+      </div>
+    </footer>
   </body>
+  <script src="assets/main.js"></script>
 </html>

@@ -13,6 +13,33 @@
     color:rgba(255, 255, 255, 0.8);
 }
 
+.is-black{
+    color:rgba(36,36,36,0.9)
+}
+
+.contactform, .callus{
+    padding: 30px;
+}
+
+.media-content{
+    overflow: hidden;
+}
+
+.is-primary, .has-text-primary{
+    color: #003f8b;
+    
+}
+.testimonials .columns{
+    padding: 0 10rem 4rem 10rem;
+}
+
+.blog_post{
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+.subtitle{
+    padding: 0 2rem 0 2rem;
+}
 
 @media (min-width: 900px){
     .hero{
@@ -24,4 +51,18 @@
     .hero{
 	height: 100vh;
     }
+
+    footer .columns,{
+    padding: 0 10rem 4rem 10rem;
+    }
+    .blog .columns{
+	align-items: center;
+	justify-content: center;
+    }
+    .blog .tile .is-parent{
+	padding: 2rem 15rem 2rem 15rem;
+}
+    
+    
+    
 }
