@@ -976,13 +976,13 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 
 .button.is-primary {
-  background-color: #00d1b2;
+  background-color: #003f8b;
   border-color: transparent;
   color: #fff;
 }
 
 .button.is-primary:hover, .button.is-primary.is-hovered {
-  background-color: #00c4a7;
+  background-color: #0056BE;
   border-color: transparent;
   color: #fff;
 }
@@ -997,7 +997,7 @@ fieldset[disabled] .button.is-dark.is-inverted.is-outlined {
 }
 
 .button.is-primary:active, .button.is-primary.is-active {
-  background-color: #00b89c;
+  background-color: #0056BE;
   border-color: transparent;
   color: #fff;
 }
@@ -8874,15 +8874,15 @@ a.has-text-dark:hover, a.has-text-dark:focus {
 }
 
 .has-text-primary {
-  color: #00d1b2 !important;
+  color: #003f8b !important;
 }
 
 a.has-text-primary:hover, a.has-text-primary:focus {
-  color: #009e86 !important;
+  color: #003f8b !important;
 }
 
 .has-background-primary {
-  background-color: #00d1b2 !important;
+  background-color: #003f8b !important;
 }
 
 .has-text-primary-light {
@@ -11045,7 +11045,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 }
 
 .hero.is-primary {
-  background-color: #00d1b2;
+  background-color: #003f8b;
   color: #fff;
 }
 
@@ -11069,7 +11069,7 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 @media screen and (max-width: 1023px) {
   .hero.is-primary .navbar-menu {
-    background-color: #00d1b2;
+    background-color: #003f8b;
   }
 }
 
