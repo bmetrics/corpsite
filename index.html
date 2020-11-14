@@ -1,98 +1,268 @@
+
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Rester</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
-    <!-- Bulma Version 0.9.0-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <link rel="stylesheet" type="text/css" href="../css/admin.css">
-</head>
+    <title>Busimetrics</title>
+    <link href="assets/bulma.css" rel="stylesheet"/>
+    <link href="assets/style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      
+      <div class="navbar-brand">
+	 <a class="navbar-item" href="index.html">
+	   <img src="assets/logo.png" width="180">
+	 </a>
+	<a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbar-menu">
+	<span aria-hidden="true"></span>
+	<span aria-hidden="true"></span>
+	<span aria-hidden="true"></span>
+	</a>
+      </div>
 
-<body>
-
-    <!-- START NAV -->
-    <nav class="navbar is-white">
-        <div class="container">
-            <div class="navbar-brand">
-                <a class="navbar-item brand-text" href="../index.html">
-          Rester Payroll
-        </a>
-                <div class="navbar-burger burger" data-target="navMenu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </div>
-            </div>
-            <div id="navMenu" class="navbar-menu">
-                <div class="navbar-end" >
-                	<input class="navbar-item" class="input"  type="text" placeholder="Time" style="width: 20%;">
-                    <input class="navbar-item" class="input" type="text" placeholder="Account" style="width: 20%;">
-   					 <input class="navbar-item" class="input"  type="text" placeholder="Filter by tag, payee, ..." style="width: 50%;">
-
-                   
-                </div>
-
-            </div>
-        </div>
+      <div class="navbar-menu">
+	<div class="navbar-end">
+	  <div class="navbar-item">
+	    <a href="index.html">Home</a>
+      </div>
+      <div class="navbar-item">
+	<a href="team.html">Team</a>
+      </div>
+      <div class="navbar-item">
+	<a href="contact.html">Contact us</a>
+      </div>
+      <div class="navbar-item">
+	<a href="case_studies.html">Case studies</a>
+      </div>
+      <div class="navbar-item">
+	<a href="blog_homepage.html">Blog</a>
+      </div>
+      <div class="navbar-item">
+	<a href="about_us.html">About us</a>
+      </div>
+	</div>
+      </div>
     </nav>
-    <!-- END NAV -->
-    <div class="container">
-        <div class="columns">
-            <div class="column is-3 ">
-                <aside class="menu is-hidden-mobile">
-                    <p class="menu-label">
-                        General
-                    </p>
-                    <ul class="menu-list">
-                        <li><a class="is-active">PAYE Return</a></li>
-                        <li><a>Tier One Report</a></li>
-                        <li><a>Tier Two Report</a></li>
-                        <li><a>Payroll</a></li>
-                        <li><a>Runs</a></li>
-                        <li><a>Query</a></li>
-                    </ul>
-                    <p class="menu-label">
-                        Administration
-                    </p>
-                    <ul class="menu-list">
-                        <li><a>Team Settings</a></li>
-                        <li>
-                            <a>Profile & Firm Settings</a>
-                            <ul>
-                                <li><a>Profile</a></li>
-                                <li><a>Firm settings</a></li>
-                                <li><a>Firm Setting</a></li>
-                                <li><a>Configuration settings</a></li>
-                            </ul>
-                        </li>
-                        <li><a>Data</a></li>
-                        <li><a>API</a></li>
-                        <li><a>Integrate</a></li>
-                        <li><a>Copy</a></li>
-                    </ul>
-                    <p class="menu-label">
-                        Transactions
-                    </p>
-                    <ul class="menu-list">
-                        <li><a>Import</a></li>
-                        <li><a>Options</a></li>
-                        <li><a>Help</a></li>
-                    </ul>
-                </aside>
-            </div>
-            <div class="column is-9">
-                
-                
-                </div>
-            </div>
-        </div>
-    </div>
-    <script async type="text/javascript" src="../js/bulma.js"></script>
-</body>
 
+    <section class="hero">
+      <div class="hero-body">
+	<div class="container has-text-centered">
+	  <h1 class="title">Something something</h1>
+	  <h2 class="subtitle">Something something</h2>
+	  <button class="button is-primary">Get an estimate</button>
+	</div>
+      </div>
+    </section>
+    <hr style="margin: 0 0 3rem;">
+    
+    <section class="services">
+      <h1 class="title has-text-primary has-text-centered">Services</h1>
+      
+      <div class="columns tile is-ancestor">
+	<div class="column">
+	  <div class="tile is-parent">
+	  <div class="card tile is-child">
+	    <div class="card-image">
+	      <figure class="image is-4by3">
+		  <img src="assets/placeholder.jpg" alt="Placeholder image">
+	      </figure>
+	    </div>
+	    <div class="card-content">
+	      <div class="media-content">
+		<p class="title has-text-primary is-4 has-text-centered">Custom App Development</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	<div class="tile is-parent">
+	  <div class="card tile is-child">
+	    <div class="card-image">
+	      <figure class="image is-4by3">
+		<img src="assets/placeholder.jpg" alt="Placeholder image">
+	      </figure>
+	    </div>
+	    <div class="card-content">
+	      <div class="media-content">
+		<p class="title has-text-primary is-4 has-text-centered">Business Analytics</p>
+	      </div>
+	    </div>
+	  </div>
+	</div>
+	
+	
+
+	</div>
+
+	<div class="column">
+	  
+	  <div class="tile is-parent">
+	    <div class="card tile is-child">
+	      <div class="card-image">
+		<figure class="image is-4by3">
+		  <img src="assets/placeholder.jpg" alt="Placeholder image">
+		</figure>
+	      </div>
+	      <div class="card-content">
+		<div class="media-content">
+		  <p class="title has-text-primary is-4 has-text-centered">IT Consulting</p>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="tile is-parent">
+	    <div class="card tile is-child">
+	      <div class="card-image">
+		<figure class="image is-4by3">
+		  <img src="assets/placeholder.jpg" alt="Placeholder image">
+		</figure>
+	      </div>
+	      <div class="card-content">
+		<div class="media-content">
+		  <p class="title has-text-primary is-4 has-text-centered">Reporting and Tracking</p>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	  
+
+	</div>
+
+	<div class="column">
+	  
+	  <div class="tile is-parent">
+	    <div class="card tile is-child">
+	      <div class="card-image">
+		<figure class="image is-4by3">
+		  <img src="assets/placeholder.jpg" alt="Placeholder image">
+		</figure>
+	      </div>
+	      <div class="card-content">
+		<div class="media-content">
+		  <p class="title has-text-primary is-4 has-text-centered">Business Intelligence</p>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+
+	  <div class="tile is-parent">
+	    <div class="card tile is-child">
+	      <div class="card-image">
+		<figure class="image is-4by3">
+		  <img src="assets/placeholder.jpg" alt="Placeholder image">
+		</figure>
+	      </div>
+	      <div class="card-content">
+		<div class="media-content">
+		  <p class="title has-text-primary is-4 has-text-centered">Forecasting</p>
+		</div>
+	      </div>
+	    </div>
+	  </div>
+	  
+
+	</div>
+
+      
+      </div>      
+      
+    </section>
+    <hr style="margin: 0 0 3rem;">
+
+    <section class="testimonials">
+      <h1 class="title has-text-primary has-text-centered">Testimonials</h1>
+
+      <div class="columns">
+	
+	<div class="column">
+	  <div class="content has-text-centered">
+	    <h3 class="subtitle has-text-primary">Amazing developers</h3>
+	    <p>
+	      “The quality of the developers is outstanding.
+	      They added great value to the project and were significant producers
+	      for the achievements of our delivery dates.”
+	    </p>
+	    <p><em>Someone someone, CTO of something</em></p>
+	  </div>
+	  
+	</div>
+	
+	<div class="column">
+	  <div class="content has-text-centered">
+	    <h3 class="subtitle has-text-primary">Good communication</h3>
+	    <p>
+	     “They’re very responsive to any queries and are proactive in suggesting new ways to enhance our cooperation.”
+	    </p>
+	    <p><em>Someone someone, Chief Architect of something</em></p>
+	  </div>
+	</div>
+      </div>
+
+    </section>
+    
+    <hr style="margin: 0 0 3rem;">
+
+   <footer class="footer">
+      
+      <div class="content has-text-centered">
+	<div class="columns">
+	  <div class="column">
+	    <img src="assets/logo.png" width="180">
+	    <p>We are a company formed not to retail off-the-shelf software but rather
+	      to develop smart and functional business applications tailored to out clients. </p>
+	  </div>
+	  <div class="column">
+	    <h3 class="subtitle has-text-primary">Company</h3>
+	    <p>
+	      <a href="blog_homepage.html">Blog</a>
+	    </p>
+	    <p>
+	      <a href="">About</a>
+	    </p>
+	    <p>
+	      <a href="">Team</a>
+	    </p>
+	    
+	  </div>
+	  <div class="column">
+	    <h3 class="subtitle has-text-primary">Showcase</h3>
+	    <p>
+	      <a href="">Services</a>
+	    </p>
+	    <p>
+	      <a href="">Case studies</a>
+	    </p>
+	  </div>
+	  <div class="column">
+	    <h3 class="subtitle has-text-primary">Contact</h3>
+	    <p>
+	      <a href="">hello@busimetrics.com</a>
+	    </p>
+	    <p>
+	      <a href="tel:+2335402331541">+2335402331541</a>
+	    </p>
+	    <p>
+	      <a href="">Team</a>
+	    </p>
+	  </div>
+	</div>
+	<hr style="margin: 0 0 3rem;">
+	<div class="level">
+	  <div class="level-item">
+	    <p>© All Rights Reserved Busimetrics</p>
+	  </div>
+	  <div class="level-item">
+	    <p>
+	      <a href="">Legal</a>
+	    </p>
+	  </div>
+	</div>
+      </div>
+    </footer>
+  </body>
+  <script src="assets/main.js"></script>
 </html>
+>>>>>>> upstream/main
